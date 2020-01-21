@@ -1,3 +1,4 @@
+
 def subArraySum(arr,n,sum_):
     dic = {}
     curr_sum = 0
@@ -12,9 +13,9 @@ def subArraySum(arr,n,sum_):
         dic[curr_sum] = i
 
 def main():
-    arr = [10, 2, -2, -20, 10]  
+    arr = [1, 4, 45, 6, 10,-8]  
     n = len(arr)  
-    sum_ = -10 
+    sum_ = 16 
     subArraySum(arr, n, sum_)
 if __name__ == '__main__':
     main()
